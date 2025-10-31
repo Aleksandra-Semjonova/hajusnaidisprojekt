@@ -1,5 +1,5 @@
 {
-  "name": "${PROJECT_NAME}",
+  "name": "harjustest",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,18 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "private": true,
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aleksandra-Semjonova/hajusnaidisprojekt.git"
+  },
+  "keywords": [],
+  "author": "Aleksandra-Semjonova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aleksandra-Semjonova/hajusnaidisprojekt/issues"
+  },
+  "homepage": "https://github.com/Aleksandra-Semjonova/hajusnaidisprojekt#readme",
   "dependencies": {
     "express": "^5.1.0",
     "swagger-ui-express": "^5.0.1"
