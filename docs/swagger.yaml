@@ -1,0 +1,51 @@
+openapi: 3.0.0
+info:
+  title: Games API
+  version: 1.0.0
+paths:
+  /games:
+    get:
+      summary: Get all games
+      responses:
+        '200':
+          description: OK
+    post:
+      summary: Create a game
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                price:
+                  type: number
+      responses:
+        '201':
+          description: Created
+
+  '/games/{id}':
+    get:
+      summary: Get game by ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: OK
+    delete:
+      summary: Delete game by ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '204':
+          description: No Content

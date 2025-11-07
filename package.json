@@ -1,10 +1,28 @@
 {
-  "name": "${PROJECT_NAME}",
+  "name": "hajusnaidisprojekt",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "public/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "private": true
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aleksandra-Semjonova/hajusnaidisprojekt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Aleksandra-Semjonova/hajusnaidisprojekt/issues"
+  },
+  "homepage": "https://github.com/Aleksandra-Semjonova/hajusnaidisprojekt#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.19.3",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "yamljs": "^0.3.0"
+  }
 }
